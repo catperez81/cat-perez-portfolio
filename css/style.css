@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+.google {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+.google {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a:link {
+  color: #00B86E;
+  text-decoration:none;
+}
+
+a:visited {
+   text-decoration: none;
+   color: #00B86E;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0099FF;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+body {
+  margin:auto;
+}
+
+.masthead {
+ Padding: 5em 0;
+ border-width:10px;	
+ border-top :solid 1em #EBC633;
+ background:url(https://images.unsplash.com/photo-1438216983993-cdcd7dea84ce?q=80&fm=jpg&s=4141165d8e8eed56b8d9012740c4b503) no-repeat;
+ background-size:cover;
+ text-align: center;
+ font-family: sans-serif;
+ Color: white;
+}
+
+.masthead-intro {
+  font-size: 1em;
+  padding-top: 2em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  margin-bottom: 2em;
+}
+
+.masthead-heading {
+  font-size: 100px;
+  font-style: italic;
+  font-family: serif;
+  margin-top: -0.2em;
+  text-shadow: 2px 2px #C9D3D6;
+
+}
+
+.section-header {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4E5D5D;
+  padding-top: 2em;
+}
+
+.section-content {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+  line-height: 1.45em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4E5D5D;
+  
+}
+
+.subtitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  color: #D6AD33;
+  
+}
+
+.site-footer {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 2em;
+  margin-top: 3em;
+  background: none repeat scroll 0 0 #333333;
+  color: #ffffff;
+}
+
+
+ul {
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-righ: auto;
+}
+
+.social{
+  padding:0;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.site-footer .p {
+  display: inline-block;
+  color: white;
+}
+
+
+li {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+/*  float:left;*/
+  padding: 1em;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead {
+    border-width:5px;	
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+  
+}
+
+@media only screen and (max-width: 500px) {
+    section {
+        margin: 2rem -7rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .site-footer p {
+       width: 150%;
+       margin-left: -4rem;
+       margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .social {
+       width: 150%;
+       margin-left: -4rem;
+       margin-bottom: 2rem;
+    }
+}
